@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.container
+{
+    width: 370px;
+    height: 540px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border-color: black;
+    border-width: 7px;
+    border-style: solid;
+    border-left: 0px;
+    padding-top: 10px;
+    margin-top: 68px;
+}
+
+svg{
+    width: 336px;
+    height: 201px;
+    border-radius: 20px;
+    padding-top: 13px;
+}
+
+.button
+{
+    width: 90px;
+    height: 28px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 6px;
+    font-family: myExtraBold, sans-serif;
+    color: black;
+    padding-top: 6px;
+    margin-right: 230px;
+      }
+      
+    
+
+@font-face {
+    font-family: myExtraBold;
+    src: url('/blog-preview-card-main/assets/fonts/static/Figtree-ExtraBold.ttf');
+  }
+  
+  .date{
+    font-family: mySemiBold, sans-serif;
+    font-size: smaller;
+    margin-right: 180px;
+  }
+
+  @font-face {
+    font-family: mySemiBold;
+    src: url('/blog-preview-card-main/assets/fonts/static/Figtree-SemiBold.ttf');
+  }
+
+  .course{
+        font-family: myExtraBold, sans-serif;
+        font-size: x-large;
+        margin-right: 40px;
+
+  }
+
+  @font-face {
+    font-family: myExtraBold;
+    src: url(/blog-preview-card-main/assets/fonts/static/Figtree-ExtraBold.ttf);
+  }
+
+  .para{
+      font-family: myVariableFont,sans-serif;
+      color: hsl(0, 0%, 50%);
+      text-align: left;
+      margin-left: 24px;
+      line-height: 1.5;
+  }
+
+  img{
+    margin-right: 270px;
+
+  }
+
+  @font-face {
+    font-family: myVariableFont;
+    src: url(/blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf);
+  }
+
+  .id{
+    font-family: myExtraBold,sans-serif;
+    margin-top: -40px;
+    margin-right: 70px;
+  }
